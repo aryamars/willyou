@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Question for You</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Courier+Prime&family=Dancing+Script:wght@400;700&family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="heartParticles" class="particle-container"></div>
+    <div class="vintage-frame" id="proposalPage">
+        <div class="corner-ornament top-left"></div>
+        <div class="corner-ornament top-right"></div>
+        <div class="corner-ornament bottom-left"></div>
+        <div class="corner-ornament bottom-right"></div>
+        
+        <div class="vintage-stamp">
+            LOVE<br>LETTER<br>2025
+        </div>
+        
+        <div class="name-header">My Dearest,</div>
+        
+        <div class="opening-text">
+            Aku tidak pernah merencanakan ini. Tapi entah bagaimana, di antara semua tawa dan percakapan kita, aku menemukan bagian dari diriku yang tidak ingin hidup tanpamu.
+        </div>
+
+        <div class="polaroid-section">
+            <div class="polaroid">
+                <div class="polaroid-content">♡<br>Dunia terasa<br>lebih benar</div>
+                <div class="polaroid-caption">saat kamu ada<br>di dalamnya</div>
+            </div>
+            
+            <div class="polaroid">
+                <div class="polaroid-content">✦<br>Kamu membuat<br>ku ingin</div>
+                <div class="polaroid-caption">menjadi versi<br>terbaik diriku</div>
+            </div>
+            
+            <div class="polaroid">
+                <div class="polaroid-content">⏰<br>Aku tidak bisa<br>bayangkan</div>
+                <div class="polaroid-caption">hari esok<br>tanpamu</div>
+            </div>
+        </div>
+
+        <div class="main-question">
+            Will you be my girlfriend?
+        </div>
+
+        <div class="buttons-container">
+            <button class="yes-button" onclick="showConfirmation()">MAU</button>
+            <button class="no-button" on="handleNo()">tidak</button>
+        </div>
+    </div>
+
+
+
+    <div class="vintage-frame confirmation-page" id="confirmationPage">
+        
+        <div class="corner-ornament top-left"></div>
+        <div class="corner-ornament top-right"></div>
+        <div class="corner-ornament bottom-left"></div>
+        <div class="corner-ornament bottom-right"></div>
+        
+        <div class="vintage-stamp">
+            OFFICIAL<br>COUPLE<br>2025
+        </div>
+        
+        <div class="confirmation-title">
+            Status: Officially Mine.<br>Congratulations!
+        </div>
+
+        <div class="birthday-section">
+            <div class="birthday-title">
+                Dan karena hari ini adalah hari spesialmu,<br>
+                Selamat Ulang Tahun untuk pacar terbaik di seluruh dunia.
+            </div>
+
+            <div class="photo-gallery">
+                <div class="gallery-polaroid">
+                    <div class="gallery-photo">
+                        Foto kenangan<br>pertama kita
+                    </div>
+                    <div class="gallery-caption">First memories</div>
+                </div>
+                <div class="gallery-polaroid">
+                    <div class="gallery-photo">
+                        Momen terbaik<br>bersama
+                    </div>
+                    <div class="gallery-caption">Best moments</div>
+                </div>
+                <div class="gallery-polaroid">
+                    <div class="gallery-photo">
+                        Tawa dan<br>kebahagiaan kita
+                    </div>
+                    <div class="gallery-caption">Our happiness</div>
+                </div>
+                <div class="gallery-polaroid">
+                    <div class="gallery-photo">
+                        Masa depan<br>yang indah
+                    </div>
+                    <div class="gallery-caption">Beautiful future</div>
+                </div>
+            </div>
+
+            <div class="personal-message">
+                Terima kasih sudah menjadi cahaya dalam hidupku. Terima kasih sudah memilih untuk memulai cerita ini bersamaku. Aku berjanji akan selalu berusaha membuatmu bahagia, hari ini dan selamanya.
+            </div>
+        </div>
+
+        <div class="footer-message">
+            Let's start our story.<br>Love, [Nama Anda]
+        </div>
+    </div>
+
+<audio id="loveSong" src="audio/aboutyou.mp3" preload="auto"></audio>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
