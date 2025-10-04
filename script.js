@@ -163,18 +163,7 @@ function handleNo() {
 document.addEventListener('DOMContentLoaded', function() {
     const frames = document.querySelectorAll('.vintage-frame');
     frames.forEach(frame => {
-        frame.addEventListener('mousemove', function(e) {
-            const rect = frame.getBoundingClientRect();
-            const x = e.clientX - rect.left;
-            const y = e.clientY - rect.top;
-            const centerX = rect.width / 2;
-            const centerY = rect.height / 2;
-            const rotateX = (y - centerY) / 150;
-            const rotateY = (centerX - x) / 150;
-            frame.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
-        });
-        frame.addEventListener('mouseleave', function() {
-            frame.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg)';
-        });
+        frame.style.transform = 'none';
     });
 });
+
