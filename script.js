@@ -1,17 +1,9 @@
-// =========================
-// FUNGSI UTAMA KONFIRMASI
-// =========================
-// =========================
-// FUNGSI UTAMA KONFIRMASI
-// =========================
+
 function showConfirmation() {
     document.getElementById('proposalPage').style.display = 'none';
     document.getElementById('confirmationPage').style.display = 'flex';
 
     // Transisi warna background
-    setTimeout(() => {
-        document.body.style.background = 'linear-gradient(135deg, #f9f6f2, #f0e8e0)';
-    }, 500);
 
     // Efek lemparan dari tombol "Mau"
     startHeartSplash();
