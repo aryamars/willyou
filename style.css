@@ -178,8 +178,8 @@
             background: linear-gradient(135deg, #2c1810, #3d2317);
             color: #f5f2ed;
             border: 3px solid #8b7355;
-            padding: 25px 80px;
-            font-size: 1.6rem;
+            padding: 20px 40px;
+            font-size: 1.0rem;
             font-family: 'Playfair Display', serif;
             font-weight: 700;
             cursor: pointer;
@@ -218,10 +218,10 @@
 
         .no-button {
     /* SAMAKAN UKURAN & FONT DENGAN TOMBOL YES */
-    padding: 25px 50px;
-    font-size: 1.6rem;
+    padding: 20px 30px;
+    font-size: 1.0rem;
     font-family: 'Playfair Display', serif;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 3px;
     
